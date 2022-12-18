@@ -8,7 +8,8 @@
 
 ## Objectives
 
-. Build a Jenkins Master/Slave on Fargate with CDK
+* Build a Jenkins Master Docker image with plugins
+* Deploy a Jenkins Master on Fargate with CDK
 
 ## Table of Contents
 
