@@ -1,6 +1,6 @@
 # Jenkins on Fargate with CDK
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_jenkins-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_jenkins-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_jenkins-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_jenkins-fargate-cdk)
+[![Docker Image CI](https://github.com/DevSecOpsSamples/jenkins-fargate-cdk/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/DevSecOpsSamples/jenkins-fargate-cdk/actions/workflows/docker-image.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_jenkins-fargate-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_jenkins-fargate-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DevSecOpsSamples_jenkins-fargate-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DevSecOpsSamples_jenkins-fargate-cdk)
 
 ## Overview
 
@@ -8,7 +8,8 @@
 
 ## Objectives
 
-. Build a Jenkins Master/Slave on Fargate with CDK
+* Build a Jenkins Master Docker image with plugins
+* Deploy a Jenkins Master on Fargate with CDK
 
 ## Table of Contents
 
