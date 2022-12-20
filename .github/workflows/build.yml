@@ -26,7 +26,6 @@ jobs:
       run: cd jenkins-docker && docker build . -t jenkins-fargate-cdk:$(date +%s)
   
   sonarqube:
-    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
